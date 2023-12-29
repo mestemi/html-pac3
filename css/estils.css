@@ -203,6 +203,10 @@ footer .rrss-links {
     margin: 1rem 0 .5rem;
 }
 
+footer .rrss-links a:hover{
+    opacity: 70%;
+}
+
 footer .info-links a {
     color: var(--secondary-color);
 }
@@ -259,10 +263,6 @@ footer .info-links ul {
 
     footer .rrss-links {
         margin: 1rem 0 1rem;
-    }
-
-    footer .rrss-links a:hover{
-        opacity: 70%;
     }
 }
 
