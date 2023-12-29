@@ -890,6 +890,10 @@ div.quote {
     .blog-item-content {
         font-size: 1rem;
     }
+
+    .entry-wrapper h1 {
+        font-size: 2.35rem;
+    }
 }
 
 /* VÍDEOS */
