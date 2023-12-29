@@ -112,6 +112,11 @@ main a {
     padding-bottom: 2px;
 }
 
+main a:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
 p {
     margin: 0;
     margin-bottom: 1rem;
@@ -151,7 +156,7 @@ nav .nav-items li a {
 nav .nav-items li:not(:first-child)::before {
     content: '|';
     margin: 0 0.5rem;
-    color: black;
+    color: var(--primary-color);
 }
 
 .home-banner {
@@ -865,6 +870,7 @@ div.quote {
 
     .entry-wrapper h2 {
         margin: 0;
+        margin-bottom: 10px;
     }
 
     .entry-content-wrapper .blog-items {
